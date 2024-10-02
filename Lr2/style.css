@@ -1,0 +1,214 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+} 
+ 
+.container { 
+    width: 1200px; 
+    margin: 0 auto; 
+} 
+ 
+.header { 
+    background-color: #333; 
+    padding: 20px 0; 
+    text-align: left; 
+} 
+ 
+.logo { 
+    font-size: 72px; 
+    text-decoration: none; 
+    color: #000; 
+} 
+ 
+.logo .highlight { 
+    color: #00a8e8; /* Синій колір для "m" у слові Ramda.js */  
+} 
+ 
+.top-menu { 
+    
+    text-align: center; 
+    background-color: #333; 
+   
+    margin-bottom: 35px; 
+    margin-top: 30px; 
+    
+} 
+ 
+.top-menu ul { 
+    list-style: none; 
+    display: inline-block; 
+    
+  
+} 
+ 
+.top-menu ul li { 
+    display: inline-block; 
+   padding:15px 10px; 
+ position: relative;
+   
+} 
+
+    
+
+
+.top-menu ul li::before, .top-menu ul li::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top:0;
+    bottom: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+.top-menu ul li::after{
+    opacity: 0%;
+    left: 0;
+}
+
+
+.top-menu ul li::before{
+    opacity: 0%;
+    right: 0;
+}
+
+.top-menu ul li:hover::after {
+    opacity: 100%;
+}
+
+
+.top-menu ul li:hover::before {
+    opacity: 100%;
+}
+
+.top-menu ul li a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 24px; 
+} 
+ 
+.main-content { 
+   
+    display: flex; 
+} 
+ 
+.sidebar { 
+    width: 25%; 
+    background-color: #f4f4f4; 
+
+} 
+ 
+.sidebar ul { 
+    list-style: none; 
+    border: 1px solid #ccc; 
+    font-size: 24px;
+} 
+ 
+.sidebar ul li { 
+    margin-bottom: 10px; 
+} 
+ 
+.sidebar ul li a { 
+    text-decoration: none; 
+    color: #333; 
+    padding: 10px; 
+    display: block; 
+} 
+ 
+.sidebar ul li.active, .sidebar ul li:hover{ 
+    background-color: #d3d3d3;  
+    border-left: 5px solid #00a8e8;  
+} 
+.sidebar li:hover a {
+    position: relative;
+    left: 30px;
+
+}
+
+.top-menu ul li:hover    { 
+    
+    
+    background-color: #708090; 
+    position: relative;
+      
+    
+} 
+
+.bottom-menu ul li.active, .bottom-menu ul li a:hover { 
+    color: #207fde; 
+} 
+ 
+.image-block { 
+    width: 70%;  
+    margin-left: 60px;
+} 
+ 
+.image-container { 
+    border: 1px solid #ccc; /* Додано рамку */ 
+    text-align: center; 
+    margin-bottom: 30px; 
+  
+} 
+ 
+.image-container img { 
+    max-width: 100%; 
+    height: auto;  
+    text-align: center;
+    border: grey;
+} 
+ 
+.image-container img:hover  {
+transform: scale(1.2);
+transition: all 0.3s linear;
+}
+
+.text-block { 
+    font-size: 14px; 
+    color: #333; 
+    text-align: left; 
+} 
+ 
+footer { 
+    background-color: #e0e0e0; /* Світло-сірий фон */ 
+    margin-top: 40px; 
+    padding: 20px 0; 
+    text-align: center; 
+    
+} 
+ 
+.bottom-menu { 
+   float: left;
+} 
+ 
+.bottom-menu ul { 
+    list-style: none; 
+    display: inline-block; 
+} 
+ 
+.bottom-menu ul li { 
+    display: inline-block; 
+    margin: 0 20px; 
+} 
+ 
+.bottom-menu ul li a { 
+    text-decoration: none; 
+    color: #555; /* Більш сірий текст для нижнього меню */ 
+    font-size: 24px; 
+  
+   
+    
+} 
+ 
+.copyright { 
+    text-align: right; 
+    color: #555; 
+    font-size: 24px; 
+    margin-right: 30px;
+}
