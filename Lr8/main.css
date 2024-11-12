@@ -1,0 +1,186 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    padding-top: 35px;
+}
+
+.top-menu{
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 67%;
+    margin: 0 auto;
+    font-family: OpenSans-Bold;
+}
+
+nav .logo{
+    display: flex;
+    font-size: 25px;
+    gap: 1px;
+}
+
+.logo .company{
+    color: rgb(75, 88, 90);
+    font-family: Roboto-Light;
+}
+
+.logo .name-what{
+    color: rgb(20, 175, 202);
+    font-family: Roboto-Black;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li:nth-child(1) a {
+    color: rgb(20, 175, 202);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(75, 88, 90);
+}
+
+nav ul li :hover{
+    color: black;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 53px;
+    height: 350px;
+    font-family: futuraBT-Bold;
+}
+
+.what{
+    padding-top: 100px;
+    margin: 0 auto;
+    width:  67%;
+    height: 300px;
+    display: flex;
+}
+
+ul{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+ ul li:nth-child(1) p {
+    color: rgb(20, 175, 202);
+    font-family: Roboto-Bold;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.what ul li:nth-child(2) p {
+     color: rgb(104, 114, 121);
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+}
+
+.what ul li:nth-child(4) p {
+    color: rgb(121, 115, 114);
+    font-family: Roroto-Regular;
+    font-size: 17px;
+}
+
+.meet-us{
+    margin-top: 30px;
+    height: 550px;
+}
+
+.meet-us .wrapper{
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.meet-us .wrapper .lor-ipsum{
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    color: rgb(104, 114, 121);
+    margin-bottom: 50px;
+}
+
+.meet-us .meet-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 24%);
+    gap: 15%;
+}
+
+.meet-us .meet-grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Roroto-Regular;
+    color: rgb(75, 88, 90);
+}
+
+.meet-us .meet-grid div img{
+    width: 80%;
+    height: 80%;
+}
+
+footer{
+    height: 400px;
+}
+
+.why{
+    margin: 0 auto;
+    width: 67%;
+    text-align: center;
+}
+
+.why :nth-child(2) p {
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    color: rgb(104, 114, 121);
+    margin-bottom: 0;
+}
+
+.why :nth-child(4) p {
+    font-family: OpenSans-Bold;
+    font-size: 32px;
+    color: rgb(66, 79, 87);
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.why .iconic-graphic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 2px;
+}
+
+.why .copyright p{
+    color: black;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    margin: 0;
+}
+
+.copyright .iconic-graphic .bold-paragraph{
+    font-family: OpenSans-Bold;
+}
+
