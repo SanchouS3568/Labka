@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white; /* Білий колір тексту для звичайного стану */
+  text-decoration: none; /* Вимкнути підкреслення */
+  transition: color 0.3s; /* Плавний перехід кольору при наведенні */
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+header {
+  width: 100%;
+  padding-bottom: 70px;
+  overflow: hidden;
+  height: 140px;
+}
+
+header > div {
+  margin-top: 17px;
+  float: right;
+}
+
+.logo {
+  float: left;
+  margin-top: 11px;
+}
+
+.header_wrap {
+  display: flex;
+}
+
+.header_wrap img {
+  height: 56px;
+  width: 55px;
+  margin-top: 4px;
+}
+
+.header_wrap:hover {
+  transition: all 0.3s linear;
+  filter: brightness(0) saturate(100%) invert(48%) sepia(22%) saturate(7044%)
+    hue-rotate(2deg) brightness(105%) contrast(102%);
+}
+
+.color:hover {
+  color: #ff6e00;
+  transition: all 0.3s linear;
+}
+
+.contact-info {
+  float: right;
+  text-align: right;
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.Milan {
+  font-size: 32px;
+}
+
+.grid {
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.grid-item {
+  width: 32%;
+  float: left;
+  margin: 0 1% 20px 1%;
+}
+.grid :first-child {
+  margin-left: 0;
+}
+.grid :nth-child(3) {
+  margin-right: 0;
+}
+.grid :nth-child(4) {
+  margin-left: 0;
+}
+.grid :last-child {
+  margin-right: 0;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 3px,
+        transparent 3px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 10px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+      calc(100% - 10px) no-repeat,
+    linear-gradient(1deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  box-sizing: border-box;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.grid-item h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.img_wrap {
+  position: relative;
+  overflow: hidden;
+  height: 246.7px;
+}
+
+.grid-popup {
+  position: absolute;
+  width: 98.2%;
+  bottom: -100px;
+  background: #ff6e00;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 3px;
+}
+
+.img_wrap:hover .grid-popup {
+  bottom: 3px;
+  transition: all 0.3s linear;
+}
+.logo_text {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 12px;
+}
+
+.price span {
+  font-size: 30px;
+}
+
+.details {
+  position: relative;
+  margin-right: 5px !important;
+}
+
+.details::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  display: block;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 5px;
+  height: 5px;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  clear: both;
+}
+
+.background-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("background.jpg") no-repeat center center;
+  background-size: cover !important;
+  z-index: 1;
+}

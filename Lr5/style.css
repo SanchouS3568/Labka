@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Arimo;
+    src: url(fonts/Arimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Arimo-bold;
+    src: url(fonts/Arimo-Bold.ttf);
+}
+
+table{
+    width: 100%;
+    height:710px;
+    text-align: center;
+    border: 25px solid rgb(58, 73, 101);
+    font-family: Arimo;
+    border-collapse: collapse;
+}
+
+thead{
+    height: 20%;
+    font-family: Arimo-bold;
+    font-size: 20px;
+}
+tbody th, td {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+ 
+tfoot{
+    height: 15%;
+}
+
+table thead .choose{
+    margin: 0;
+    font-size: 17px;
+}
+
+table thead .pricing{
+    margin: 0;
+    font-size: 28px;
+}
+
+table thead .standart{
+    background-color: rgb(137, 195, 49);
+    color: white;
+    height: 70px;
+}
+
+table thead .ultimate{
+    background-color: rgb(240, 74, 86);
+    color: white;
+}
+
+table thead .premium{
+    background-color: rgb(32, 128, 124);
+    color: white;
+}
+
+table thead .price-row .d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table thead .price-row .d-flex .left{
+    float: left;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table thead .price-row .d-flex .right p{
+    font-size: 18px;
+    margin: 0;
+}
+
+table thead .price-row .d-flex .right{
+    float: right;
+    text-align: left;
+}
+
+table thead .price-row .d-flex .right .per-month{
+    font-family: Arimo;
+}
+
+table tbody .light-grey{
+    background-color: rgb(242, 242, 242);
+}
+
+table tbody .grey{
+    background-color: rgb(227, 227, 227)
+}
+
+table tfoot button{
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0;
+    position: relative;
+}
+
+table tfoot .button-container .shadow-1{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(64, 64, 41);
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    opacity: 23%;
+}
+
+table tfoot .button-container :hover {
+    box-shadow: 5px 5px 5px rgb(162, 162, 162);
+    transition: 0.5s ease;
+}
+
+table tfoot .contact-us{
+    background-color: rgb(72, 72, 72);
+}
+
+table tfoot .buy-1{
+    background-color: rgb(137, 195, 49);
+}
+
+table tfoot .buy-2{
+    background-color: rgb(240, 74, 86);
+}
+
+table tfoot .buy-3{
+    background-color: rgb(32, 128, 124);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
