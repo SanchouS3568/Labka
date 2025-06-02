@@ -1,0 +1,440 @@
+section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.new-patients {
+    padding-top: 25px;
+}
+
+.new-patients img {
+    position: absolute;
+}
+
+.new-patients .text {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px;
+}
+
+.new-patients .text .overtitle p,
+.dental-health .upper .left .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 110px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dental-health .upper .left .overtitle p {
+    font-size: 80px;
+}
+
+.new-patients .text .title p,
+.dental-health .upper .left .title p {
+    font-family: "Cinzel";
+    font-size: 80px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.dental-health .upper .left .title p {
+    font-size: 56px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.new-patients .text .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 50px;
+    line-height: 130%;
+    opacity: .8;
+}
+
+.new-patients .text .bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.new-patients .text .bottom .btn-patients button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 25px;
+}
+
+.new-patients .text .bottom .number p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.new-patients .text .bottom .number .aqua {
+    color: #31D3CA;
+}
+
+.dental-health {
+    padding-top: 200px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.dental-health .upper .right .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    line-height: 137.3%;
+    opacity: .8;
+    float: right;
+    margin-top: -115px;
+    margin-right: 120px;
+}
+
+.dental-health .upper .included p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-left: 20px;
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+
+.dental-health .bottom {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-visit {
+    padding-top: 100px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.first-visit .left,
+.focuse .left {
+    position: absolute;
+}
+
+.first-visit .left .overtitle p,
+.focuse .left .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 40px;
+}
+
+.focuse .left .overtitle p {
+    left: 20px;
+}
+
+.first-visit .left .title p,
+.focuse .left .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -25px;
+    margin-left: 55px;
+}
+
+.first-visit .left .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    line-height: 137.3%;
+    opacity: .8;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.first-visit .right {
+    float: right;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 32px;
+    margin-top: 100px;
+}
+
+.first-visit .right .title p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 137.3%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-visit .right .what-to-bring p,
+.focuse .left .safety p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    line-height: 133.5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.focuse .left .safety p {
+    margin-left: 55px;
+}
+
+.focuse {
+    padding-top: 600px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.focuse .right {
+    float: right;
+    margin-top: -100px;
+}
+
+.smile-gallery {
+    width: 1640px;
+    margin: 0 auto;
+    margin-top: 125px;
+    overflow: hidden;
+    margin-bottom: 150px
+}
+
+.smile-gallery .text {
+    margin-left: 500px;
+    padding-top: 100px;
+    position: absolute;
+}
+
+.smile-gallery .text .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -50px;
+}
+
+.smile-gallery .text .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -50px;
+}
+
+.smile-gallery .text button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.testimonials {
+    margin-top: 50px;
+}
+
+.testimonials .upper-container .upper-left {
+    position: absolute;
+}
+
+.testimonials .upper-container .upper-left .text {
+    font-family: "Tuesday Night";
+    font-size: 84.93px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+}
+
+.testimonials .upper-container .upper-left .text {
+    padding-left: 435px;
+    margin-top: -270px;
+}
+
+.testimonials .upper-container .upper-left .text .i {
+    padding-left: 45px;
+}
+
+.testimonials .upper-container .upper-left .text .smile {
+    padding-left: 135px;
+    margin-top: -100px;
+}
+
+.testimonials .upper-container .upper-right {
+    float: right;
+    margin-top: 125px;
+}
+
+.testimonials .upper-container .upper-right .text .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+}
+
+.testimonials .upper-container .upper-right .text .description p {
+    font-family: "Work Sans";
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 147%;
+    opacity: .8;
+}
+
+.testimonials .upper-container .upper-right .text .quote-pin img {
+    margin-top: 50px;
+}
+
+.testimonials .upper-container .upper-right .text .name p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.testimonials .upper-container .upper-right .text .place-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.testimonials .upper-container .upper-right .text .place-rating p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    opacity: .6;
+}
+
+.testimonials .lower-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1303px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.testimonials .lower-container .first,
+.testimonials .lower-container .second,
+.testimonials .lower-container .third {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .lower-container .first .text,
+.testimonials .lower-container .second .text,
+.testimonials .lower-container .third .text {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.testimonials .lower-container .first .text .prof,
+.testimonials .lower-container .second .text .prof,
+.testimonials .lower-container .third .text .prof {
+    opacity: .6;
+    margin-top: 5px;
+}
+
+.testimonials .lower-container button {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.experience {
+    margin: 0 auto;
+    width: 1329px;
+    padding-bottom: 150px;
+}
+
+.experience .upper .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience .upper .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-left: 95px;
+    margin-top: -50px;
+}
+
+.experience .bottom .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.experience .bottom .cards .injection .title p,
+.experience .bottom .cards .tooth .title p,
+.experience .bottom .cards .save-money .title p,
+.experience .bottom .cards .smile .title p {
+    font-family: "Work Sans";
+    font-size: 24px;
+    line-height: 119.5%;
+    letter-spacing: -2%;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.experience .bottom .cards .injection .undertitle p,
+.experience .bottom .cards .tooth .undertitle p,
+.experience .bottom .cards .save-money .undertitle p,
+.experience .bottom .cards .smile .undertitle p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    color: #fff;
+    margin-top: 2cap;
+}

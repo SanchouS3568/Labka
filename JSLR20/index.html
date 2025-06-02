@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оцінка виконання проекту</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Оцінка виконання проекту</h1>
+        <div class="input-group">
+            <label for="speed">Швидкість розробників (сторі-поінти на день):</label>
+            <input type="text" id="speed" placeholder="Введіть швидкості через кому">
+        </div>
+        <div class="input-group">
+            <label for="backlog">Беклог (сторі-поінти для задач):</label>
+            <input type="text" id="backlog" placeholder="Введіть задачі через кому">
+        </div>
+        <div class="input-group">
+            <label for="deadline">Дедлайн:</label>
+            <input type="date" id="deadline">
+        </div>
+        <button onclick="calculate()">Розрахувати</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

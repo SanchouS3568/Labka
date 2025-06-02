@@ -1,0 +1,171 @@
+main {
+    background-color: #fff;
+}
+
+.payment {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.payment .gradient-border {
+    padding: 2px;
+    background: linear-gradient(to right,
+            rgba(49, 211, 202, 0.17) 0%,
+            rgba(49, 211, 202, 1) 43%,
+            rgba(49, 211, 202, 0) 100%);
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+.payment .left,
+.payment .right {
+    background: white;
+    padding: 24px 52px;
+    color: #091B32;
+    height: 290px;
+}
+
+.payment .left .title p,
+.payment .right .title p {
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 101%;
+    letter-spacing: -2%;
+}
+
+.payment .left .options p,
+.payment .right .description p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    opacity: .8;
+    margin-top: 15px;
+}
+
+.payment .left .cards {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.payment .left .contact p,
+.payment .right .contact p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    opacity: .8;
+    margin-top: 20px;
+}
+
+.payment .left .contact .aqua,
+.payment .right .contact .aqua {
+    color: #31D3CA;
+}
+
+.payment .left .learn a {
+    text-decoration: none;
+    color: #31D3CA;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment .left .learn {
+    margin-top: 35px;
+}
+
+.payment .right img {
+    margin-top: 25px;
+}
+
+.peninsula-container {
+    margin: 0 auto;
+    width: 1440px;
+    height: 862px;
+}
+
+.peninsula-container .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(226, 255, 253, 0.3) 0%,
+            rgba(203, 217, 216, 1) 43%,
+            rgba(226, 255, 253, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.peninsula-container .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #091B32;
+    line-height: 101.5%;
+    margin-top: -45px;
+    margin-left: 40px;
+}
+
+.peninsula-container .left {
+    position: absolute;
+    padding-top: 60px;
+}
+
+.peninsula-container .left .office {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #091B32;
+    line-height: 133.5%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.peninsula-container .left .phone {
+    margin-top: 25px;
+}
+
+.peninsula-container .left .map,
+.peninsula-container .left .phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.peninsula-container .left .map p,
+.peninsula-container .left .phone p {
+    font-family: "Work Sans";
+    font-size: 22px;
+    line-height: 142.5%;
+    color: #091B32;
+}
+
+.peninsula-container .line {
+    opacity: .5;
+    width: 60px;
+    border-top: 1px solid #091B32;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.peninsula-container .left .schedule p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    color: #091B32;
+    margin-left: 50px;
+}
+
+.peninsula-container .left .schedule {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.peninsula-container .right {
+    float: right;
+}

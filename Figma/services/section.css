@@ -1,0 +1,279 @@
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.dental-services {
+    margin-top: 25px;
+}
+
+.dental-services img {
+    position: absolute;
+}
+
+.dental-services .text {
+    width: 1284px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 100px;
+}
+
+.dental-services .text .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 110px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dental-services .text .title p {
+    position: absolute;
+    font-family: "Cinzel";
+    font-size: 80px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+.dental-services .text .bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.dental-services .text .bottom .btn-service button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-right: 25px;
+}
+
+.dental-services .text .bottom .number p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.dental-services .text .bottom .number .aqua {
+    color: #31D3CA;
+}
+
+.prof-services {
+    width: 1284px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.prof-services .text .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.prof-services .text .title p {
+    position: absolute;
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+
+.prof-services .text .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 40px;
+}
+
+.world-class .upper button {
+    margin-top: -70px;
+    float: right;
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+}
+
+.world-class .img-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world-class .img-container .first-container,
+.world-class .img-container .second-container,
+.world-class .img-container .third-container {
+    position: relative;
+}
+
+.world-class .img-container .first-container .gradient-box,
+.world-class .img-container .second-container .gradient-box,
+.world-class .img-container .third-container .gradient-box {
+    position: absolute;
+    width: 399px;
+    height: 456px;
+    background: linear-gradient(to bottom, rgba(9, 27, 50, 0) 0%, rgba(9, 27, 50, 1) 100%);
+    z-index: 1;
+}
+
+.world-class .img-container .first-container .autor .dr p,
+.world-class .img-container .second-container .autor .dr p,
+.world-class .img-container .third-container .autor .dr p {
+    font-family: "Tuesday Night";
+    font-size: 64px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -105px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.world-class .img-container .first-container .autor .name p,
+.world-class .img-container .second-container .autor .name p,
+.world-class .img-container .third-container .autor .name p {
+    font-family: "Cinzel";
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 123.5%;
+    margin-top: -45px;
+    margin-left: 95px;
+    z-index: 2;
+    position: relative;
+}
+
+.world-class .img-container .first-container button,
+.world-class .img-container .second-container button,
+.world-class .img-container .third-container button {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 50px;
+    z-index: 2;
+    position: relative;
+}
+
+.world-class {
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1284px;
+}
+
+.world-class .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.world-class .title p {
+    position: absolute;
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -45px;
+    margin-left: 100px;
+}
+
+.services-card {
+    padding-top: 200px;
+    width: 1284px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.services-card .upper {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.services-card .upper .text p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+}
+
+.services-card .upper .btn-card button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(127deg) brightness(107%) contrast(102%);
+    opacity: 1;
+}
+
+.services-card .upper .btn-card #prev {
+    margin-right: 20px;
+}
+
+.services-card .upper .btn-card button:hover {
+    filter: brightness(0) saturate(100%) invert(86%) sepia(90%) saturate(493%) hue-rotate(95deg) brightness(90%) contrast(82%);
+}
+
+.services-card .carousel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.services-card .carousel-container {
+    overflow: hidden;
+}
+
+.services-card .cards-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.services-card .card {
+    width: 360px;
+    height: 511px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+

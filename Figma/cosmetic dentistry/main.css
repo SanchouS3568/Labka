@@ -1,0 +1,85 @@
+main {
+    background-color: #fff;
+}
+
+.payment {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.payment .gradient-border {
+    padding: 2px;
+    background: linear-gradient(to right,
+            rgba(49, 211, 202, 0.17) 0%,
+            rgba(49, 211, 202, 1) 43%,
+            rgba(49, 211, 202, 0) 100%);
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+.payment .left,
+.payment .right {
+    background: white;
+    padding: 24px 32px;
+    color: #091B32;
+    width: 626px;
+    height: 296px;
+}
+
+.payment .left .title p,
+.payment .right .title p {
+    font-family: "Work Sans";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 101%;
+}
+
+.payment .left .options p,
+.payment .right .description p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    opacity: .8;
+    margin-top: 15px;
+}
+
+.payment .left .cards {
+    margin-top: -130px;
+    display: flex;
+    gap: 20px;
+}
+
+.payment .left .contact p,
+.payment .right .contact p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    opacity: .8;
+    margin-top: 20px;
+}
+
+.payment .left .contact .aqua,
+.payment .right .contact .aqua {
+    color: #31D3CA;
+}
+
+.payment .left .learn a {
+    text-decoration: none;
+    color: #31D3CA;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment .left .learn {
+    margin-top: 35px;
+}
+
+.payment .right img {
+    margin-top: 25px;
+}

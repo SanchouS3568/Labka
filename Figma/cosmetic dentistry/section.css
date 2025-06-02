@@ -1,0 +1,503 @@
+section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.cosmetic {
+    padding-top: 25px;
+}
+
+.cosmetic img {
+    position: absolute;
+}
+
+.cosmetic .text {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px;
+}
+
+.cosmetic .text .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 110px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cosmetic .text .title p {
+    font-family: "Cinzel";
+    font-size: 80px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-top: -80px;
+    margin-left: 70px;
+}
+
+.cosmetic .text .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    margin-left: 70px;
+    margin-top: 50px;
+    line-height: 130%;
+    opacity: .6;
+}
+
+.cosmetic .text .bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cosmetic .text .bottom .btn-cosmetic button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 25px;
+}
+
+.cosmetic .text .bottom .number p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cosmetic .text .bottom .number .aqua {
+    color: #31D3CA;
+}
+
+.cosmetic img {
+    height: 706px;
+    margin-left: 200px;
+}
+
+.bright {
+    margin: 0 auto;
+    width: 1284px;
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bright .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    line-height: 137.3%;
+    opacity: .8;
+}
+
+.bright .tooth-paste,
+.bright .dental-care {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    line-height: 133.5%;
+}
+
+.cards {
+    display: flex;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 1302px;
+}
+
+.cards .card,
+.cards .card-dif {
+    position: relative;
+}
+
+.cards .card img {
+    display: block;
+}
+
+.cards .card p,
+.cards .card-dif .overlay-text {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    color: #fff;
+    font-size: 56px;
+    pointer-events: none;
+    font-family: "Cinzel";
+    line-height: 101.5%;
+    transform: rotate(-90deg);
+    text-align: end;
+}
+
+.cards .card-dif .description p {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Work Sans";
+    line-height: 133.5%;
+    text-align: start;
+    top: 65%;
+    left: 35%;
+    position: absolute;
+}
+
+.cards .card-dif .link-card a {
+    position: absolute;
+    top: 88%;
+    left: 35%;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: #31D3CA;
+}
+
+.testimonials {
+    margin-top: 50px;
+}
+
+.testimonials .upper-container .upper-left {
+    position: absolute;
+}
+
+.testimonials .upper-container .upper-left .text {
+    font-family: "Tuesday Night";
+    font-size: 84.93px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+}
+
+.testimonials .upper-container .upper-left .text {
+    padding-left: 435px;
+    margin-top: -270px;
+}
+
+.testimonials .upper-container .upper-left .text .i {
+    padding-left: 45px;
+}
+
+.testimonials .upper-container .upper-left .text .smile {
+    padding-left: 135px;
+    margin-top: -100px;
+}
+
+.testimonials .upper-container .upper-right {
+    float: right;
+    margin-top: 125px;
+}
+
+.testimonials .upper-container .upper-right .text .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+}
+
+.testimonials .upper-container .upper-right .text .description p {
+    font-family: "Work Sans";
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 147%;
+    opacity: .8;
+}
+
+.testimonials .upper-container .upper-right .text .quote-pin img {
+    margin-top: 50px;
+}
+
+.testimonials .upper-container .upper-right .text .name p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.testimonials .upper-container .upper-right .text .place-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.testimonials .upper-container .upper-right .text .place-rating p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    opacity: .6;
+}
+
+.testimonials .lower-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1303px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.testimonials .lower-container .first,
+.testimonials .lower-container .second,
+.testimonials .lower-container .third {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials .lower-container .first .text,
+.testimonials .lower-container .second .text,
+.testimonials .lower-container .third .text {
+    font-family: "Work Sans";
+    font-size: 18px;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.testimonials .lower-container .first .text .prof,
+.testimonials .lower-container .second .text .prof,
+.testimonials .lower-container .third .text .prof {
+    opacity: .6;
+    margin-top: 5px;
+}
+
+.testimonials .lower-container button {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+.white-insert {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1172px;
+    height: 425px;
+}
+
+.white-insert .text {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.white-insert .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(226, 255, 253, 0.03) 0%,
+            rgba(203, 217, 216, 1) 43%,
+            rgba(226, 255, 253, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.white-insert .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    line-height: 101.5%;
+    color: #091B32;
+}
+
+.white-insert .title .aqua {
+    color: #31D3CA;
+}
+
+.white-insert .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.white-insert .bottom .description p {
+    opacity: .8;
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #091B32;
+}
+
+.white-insert .bottom button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+}
+
+.better {
+    margin: 0 auto;
+    width: 1329px;
+    padding-top: 150px;
+}
+
+.better .upper .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 0.03) 0%,
+            rgba(255, 255, 255, 0.72) 43%,
+            rgba(255, 255, 255, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.better .upper .title p {
+    font-family: "Cinzel";
+    font-size: 56px;
+    color: #fff;
+    line-height: 101.5%;
+    margin-left: 95px;
+    margin-top: -50px;
+}
+
+.better .bottom .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+
+.better .bottom .cards .drill-tool .title p,
+.better .bottom .cards .tooth .title p,
+.better .bottom .cards .smile .title p {
+    font-family: "Work Sans";
+    font-size: 24px;
+    line-height: 119.5%;
+    letter-spacing: -2%;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.better .bottom .cards .drill-tool .undertitle p,
+.better .bottom .cards .tooth .undertitle p,
+.better .bottom .cards .smile .undertitle p {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 133.5%;
+    color: #fff;
+    margin-top: 2cap;
+}
+
+.better .under-better {
+    display: flex;
+    align-items: center;
+    padding-top: 75px;
+    width: 523px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.better .under-better .btn-better button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+}
+
+.better .under-better .number p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.better .under-better .number .aqua {
+    color: #31D3CA;
+}
+
+.our-team {
+    background: url("./images/Rectangle\ 136.png");
+    height: 806px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.our-team .white-box {
+    background-color: #fff;
+    width: 330px;
+    padding: 32px 40px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    aspect-ratio: 1;
+}
+
+.our-team .white-box .line {
+    opacity: .5;
+    width: 34px;
+    border-top: 1px solid #091B32;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.our-team .white-box .overtitle p {
+    font-family: "Tuesday Night";
+    font-size: 48px;
+    background: linear-gradient(rgba(226, 255, 253, 0.3) 0%,
+            rgba(203, 217, 216, 1) 43%,
+            rgba(226, 255, 253, 0.00) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our-team .white-box .title p {
+    font-family: "Cinzel";
+    font-size: 36px;
+    color: #091B32;
+    line-height: 101.5%;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+.our-team .white-box .description p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    line-height: 137.3%;
+    color: #091B32;
+    opacity: .8;
+    margin-left: 15px;
+}
+
+.our-team .white-box button {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #31D3CA;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 15px;
+}

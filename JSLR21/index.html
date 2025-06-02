@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Універсальний фільтр</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Універсальний фільтр масиву об'єктів</h1>
+        <textarea id="inputArray" placeholder="Введіть масив об'єктів у форматі JSON"></textarea>
+        <input type="text" id="keywords" placeholder="Введіть ключові слова">
+        <div class="checkbox-container">
+            <input type="checkbox" id="matchAll">
+            <label for="matchAll">Знайти всі ключові слова</label>
+        </div>
+        <input type="text" id="fields" placeholder="Введіть поля для пошуку (через кому)">
+        <button onclick="applyFilter()">Застосувати фільтр</button>
+        <h2>Результат:</h2>
+        <pre id="result"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
